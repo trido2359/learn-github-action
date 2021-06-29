@@ -1,0 +1,24 @@
+{
+  "name": "learn-github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trido2359/learn-github-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trido2359/learn-github-action/issues"
+  },
+  "homepage": "https://github.com/trido2359/learn-github-action#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.6"
+  }
+}
